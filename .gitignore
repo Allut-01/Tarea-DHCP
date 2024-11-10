@@ -1,0 +1,4 @@
+.vagrant/
+*.bak
+*.tmp
+files/
