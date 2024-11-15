@@ -8,6 +8,7 @@ Vagrant.configure("2") do |config|
     m.vm.provision "shell", inline: <<-SHELL
       apt-get update
       apt-get install -y bind9
+      cp -v /vagrant /etc/default/named
     SHELL
   end
 
